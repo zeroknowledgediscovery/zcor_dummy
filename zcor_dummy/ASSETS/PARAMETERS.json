@@ -1,0 +1,5 @@
+{
+  "max_dummy_risk": 0.12,
+  "dummy_threshold": 0.07,
+  "max_dummy_confidence": 0.48
+}
