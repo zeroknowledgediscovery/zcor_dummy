@@ -1,1 +1,1 @@
-recursive-include zcor_dummy/ASSETS *
+graft zcor_dummy/ASSETS *
