@@ -12,6 +12,7 @@ def load_classifier_object(LOAD_PATH):
     with open(LOAD_PATH, "rb") as f:
         CLF = dill.load(f)
     CLF.load_repo_assets()
+    return CLF
 
 class QuasiZcorClassifier:
     def __init__(self):
