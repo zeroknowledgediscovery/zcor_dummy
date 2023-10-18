@@ -36,7 +36,7 @@ class QuasiZcorClassifier:
 
     def load_repo_assets(self):
         self.package_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        self.ASSETS_FOLDER = f"{self.package_dir}/zcor/ASSETS"
+        self.ASSETS_FOLDER = f"{self.package_dir}/zcor_dummy/ASSETS"
         self.ASSETS_FOLDER
 
         with open(f"{self.ASSETS_FOLDER}/PARAMETERS.json", "r") as f:
